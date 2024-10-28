@@ -52,6 +52,7 @@ import { MyComponentComponent } from './components/my-component/my-component.com
 })
 export class AppModule {}
 
-file `TambahProduk`
+```
+file `ui`
 ## Screenshot
 ![Lampiran ui](ui.png)
