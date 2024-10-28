@@ -20,8 +20,10 @@ export class MyComponentComponent {
   @Input() title: string;
 }
 
+```
 Setelah mendefinisikan komponen, buat file HTML untuk menentukan tampilan komponen . dapat menggunakan sintaksis templating Angular di sini. Berikut adalah contoh template HTML untuk komponen 
 
+```typescript
 <ion-card>
   <ion-card-header>
     <ion-card-title>{{ title }}</ion-card-title>
@@ -31,11 +33,12 @@ Setelah mendefinisikan komponen, buat file HTML untuk menentukan tampilan kompon
   </ion-card-content>
 </ion-card>
 
-
+```
 Selanjutnya, buat file SCSS untuk mendefinisikan gaya CSS komponen.
 
 Setelah itu, perlu mengimpor komponen ke dalam app.module.ts dan menambahkannya ke dalam array declarations. Berikut adalah contoh bagaimana mengimpor dan mendeklarasikan komponen dalam module:
 
+```typescript
 // app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -51,8 +54,8 @@ import { MyComponentComponent } from './components/my-component/my-component.com
   // ...
 })
 export class AppModule {}
-
 ```
+
 file `ui`
 ## Screenshot
 ![Lampiran ui](ui.png)
